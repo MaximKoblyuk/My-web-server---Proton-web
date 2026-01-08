@@ -21,11 +21,6 @@ A production-grade HTTP server built in C, inspired by NGINX architecture princi
 - **Modular design** allowing custom protocol handlers and filters
 - **Production-ready features**: reverse proxy, load balancing, caching, TLS
 
-### Non-Goals
-- ❌ Not a Python web server (Python used only for tooling)
-- ❌ Not a direct NGINX fork or code clone
-- ❌ Not designed for embedded systems (targets Linux servers)
-
 ---
 
 ## 2. Architecture Design
@@ -192,14 +187,14 @@ proton-web/
 - Old workers finish requests before exit  
 
 ### Planned Features (Post-MVP)
-- 🔒 **TLS/SSL** (OpenSSL integration)
-- 🗜️ **Compression** (gzip, brotli)
-- 🔄 **HTTP/2** support
-- 🧠 **Content Cache** (in-memory + disk)
-- 🎯 **Load Balancing** (least-conn, IP hash, consistent hashing)
-- 🔑 **API Gateway** features (JWT auth, rate limiting, request transformation)
-- 📊 **Metrics** (Prometheus endpoint)
-- 🌐 **WebSocket** proxy support
+-  **TLS/SSL** (OpenSSL integration)
+-  **Compression** (gzip, brotli)
+-  **HTTP/2** support
+-  **Content Cache** (in-memory + disk)
+-  **Load Balancing** (least-conn, IP hash, consistent hashing)
+-  **API Gateway** features (JWT auth, rate limiting, request transformation)
+-  **Metrics** (Prometheus endpoint)
+- **WebSocket** proxy support
 
 ---
 
@@ -580,26 +575,26 @@ curl http://localhost:8080/
 - ✅ Graceful reload
 
 ### v0.2 - Production Ready (Q2 2026)
-- 🔒 TLS/SSL support (OpenSSL)
-- 🗜️ gzip compression
-- 🔄 Connection pooling
-- 🎯 Load balancing (round-robin, least-conn)
-- 📊 Access/error logging
-- 🧪 Full test suite
+-  TLS/SSL support (OpenSSL)
+-  gzip compression
+-  Connection pooling
+-  Load balancing (round-robin, least-conn)
+-  Access/error logging
+-  Full test suite
 
 ### v0.3 - Advanced Features (Q3 2026)
-- 🧠 Content caching (memory + disk)
-- 🔑 JWT authentication module
-- ⚡ Rate limiting
-- 📈 Prometheus metrics endpoint
-- 🌐 WebSocket proxy support
-
+-  Content caching (memory + disk)
+-  JWT authentication module
+-  Rate limiting
+-  Prometheus metrics endpoint
+-  WebSocket proxy support
+- 
 ### v1.0 - Stable Release (Q4 2026)
-- 🚀 HTTP/2 support
-- 🗜️ Brotli compression
-- 🔥 Performance optimizations (SIMD, zero-copy)
-- 📖 Complete documentation
-- 🏢 Production deployments
+-  HTTP/2 support
+-  Brotli compression
+-  Performance optimizations (SIMD, zero-copy)
+-  Complete documentation
+-  Production deployments
 
 ---
 

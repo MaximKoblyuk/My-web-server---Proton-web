@@ -1,6 +1,7 @@
 # Proton Web Server
 
 **High-Performance Event-Driven Web Server, Reverse Proxy, Load Balancer & API Gateway**
+![DALL·E 2026-01-08 15 29 27 - High‑quality modern vector logo for an open‑source infrastructure project named “Proton Web Server” with CLEAR, LEGIBLE text  Combine a minimalist abs](https://github.com/user-attachments/assets/f82660d8-4b8c-4119-838a-cd6704c547cb)
 
 A production-grade HTTP server built in C, inspired by NGINX architecture principles but designed from scratch with modern use cases in mind.
 

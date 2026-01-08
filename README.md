@@ -650,6 +650,7 @@ Single-threaded workers with epoll. No blocking operations. Async all the way.
 Master handles orchestration, workers handle requests. Modules are isolated. Python stays out of C's way.
 
 ---
+<img width="1430" height="827" alt="image" src="https://github.com/user-attachments/assets/76547df0-2036-4eaf-a373-1b3dba568769" />
 
 ## Acknowledgments
 
